@@ -4,3 +4,7 @@ Developer Field Notes
  -A section showing the daily loop: edit, stage, commit, push.
  -A list of at least eight Git commands with short explanations.
  -A section for "Things I should not commit"
+
+
+
+ https://github.com/Yomara-martinez/developer-field-notes/settings/pages
