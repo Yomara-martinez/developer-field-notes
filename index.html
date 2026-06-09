@@ -7,7 +7,9 @@
 </head>
 <body>
   <main>
-    <h1>Git is not GitHub</h1>
+    <h1>Git vs GitHub</h1>
+
+    <section>
     <h2> Git </h2>
     <p>A command-line tool on your laptop. 
         Tracks file changes. Works offline.
@@ -15,7 +17,48 @@
          Torvalds in 2005.</p>
 
          <h2>GitHub</h2>
+<p> A webside that host gif repos and adds collaboration on top.
+    Pull requests, issues, code review, CI, the social layer.
+</p>
 
+</section>
+
+<section>
+    <h2>Daily loop</h2>
+    <ul>
+        <li>Edit</li>
+         <li>Stage</li>
+          <li>Commit</li>
+           <li>Push</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Git commands</h2>
+
+    <ul>
+        <li>git init:This creates a .git directory that tracks your project. It's now a local Git repo.</i>
+        <li>git status:Shows what files are untracked (not staged) or modified. Helpful before committing.</i>
+        <li>git add:Stages the file so it will be included in the next commit.</i>
+        <li>git commit:Commits all staged files to your local repo with a message.</i>
+        <li>git push:Sends your local commits to the remote repository. Often used after commit.</i>
+        <li>git pull:Downloads and merges new changes from the remote branch.</i>
+        <li>git branch:Branches help isolate features or fixes. Always create a branch for new work!</i>
+        <li>git merge:Combines the changes from the feature branch into your main branch.</i>
+    </ul>
+</section>
+
+<section>
+    <h2>Things I should not commit</h2>
+
+    <ul>
+        <li>.env</i>
+       <li>secrets</i>
+        <li>node_modules</i>
+       <li>.DS_Store</i>
+    </ul>
+</section>
+ <footer><p>Yomara Martinez</p></footer>
   </main>
 </body>
 </html>
